@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style: none;
+}  
+header{
+    height: 15vh;
+}
+.header-container{
+    font-family: Montserrat;
+    color: #9767A9;
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 200;
+}
+.to-de-cacho-box{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-de-cacho-box img{
+    width:10vw;
+}
+.nav-header{
+    width:60vw;
+    height: 100%;
+    padding: 0 5vw 0 0;
+}
+.nav-header ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-header ul :hover{
+    cursor: pointer;
+    font-weight:bolder;
+}
+.nav-header li{
+    font-size: 1vw;
+}
+.input-container{
+    margin-right: 2vw;
+    display:flex;
+    align-items: center;
+}
+.input-container input{
+    font-family: Montserrat;
+    font-size: 1vw;
+    height: 5.8vh;
+    width:12vw;
+    text-align: center;
+    border-style: solid;
+    border-color: #9767A9;
+    border-radius: 80px;
+    background-image: url(./img/search-icon.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: 1vw;
+}
+.redes-container{
+    width: 30%;
+    padding-right: 6vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes-container img{
+    width: 3.5vw;
+}
+main{
+    height:500vh;
+}
+.benny-harlem-container{
+    height: 80vh;
+    background-image: url(./img/benny-harlem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-benny-box{
+    width: 40vw;
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 4vw;
+}
+.text-benny-box{
+    width: 30vw;
+    color: white;
+    font-family: Montserrat;
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+.sete-passos-txt-img-container{
+    position: absolute;
+    width: 100%;
+}
+.sete-passos-container{
+    background-color: #9767A9;
+    height:50vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    position: relative;
+}
+.title-sete-passos-box{
+    color: white;
+    font-size: 2vw;
+    width:50vw;
+    font-family: 'Playfair Display';
+}
+.text-sete-passos-box{
+    color: white;
+    font-size: 1.5vw;
+    width:40vw;
+    font-family: Montserrat;
+}
+.img-txt-1-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.foto-texto-container-1{
+    display: flex;
+    flex-direction: column;
+}
+.espelho-img-box{
+    width: 40vw;
+    position: absolute;
+    top:30vh;
+    right: 50vw;
+}
+.espelho-img-box img{
+    width:40vw;
+}
+.espelho-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.espelho-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.espelho-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.cacheado-img-box{
+    width:40vw;
+    position: absolute;
+    top:130vh;
+    right:50vw;
+}
+.cacheado-img-box img{
+    width:40vw;
+}
+.cacheado-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.cacheado-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.cacheado-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.adulto-crianca-img-box{
+    width:40vw;
+    position: absolute;
+    top:230vh;
+    right:50vw;
+}
+.adulto-crianca-img-box img{
+    width:40vw;
+}
+.adulto-crianca-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2% ;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.adulto-crianca-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.adulto-crianca-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.cabelos-brancos-img-box{
+    width:40vw;
+    position: absolute;
+    top:330vh;
+    right:50vw;
+}
+.cabelos-brancos-img-box img{
+    width:40vw;
+}
+.cabelos-brancos-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2% ;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.cabelos-brancos-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.cabelos-brancos-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.foto-texto-container-2{
+    display: flex;
+    flex-direction: column;
+}
+.maju-img-box{
+    width:40vw;
+    position: absolute;
+    left: 50vw;
+    top:60vh;
+}
+.maju-img-box img{
+    width:40vw;
+}
+.maju-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.maju-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.maju-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.queen-img-box{
+    width: 40vw;
+    position: absolute;
+    top:150vh;
+    left:50vw;
+}
+.queen-img-box img{
+    width:40vw;
+}
+.queen-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.queen-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.queen-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.lavando-crespo-img-box{
+    width:40vw;
+    position: absolute;
+    top:250vh;
+    left:50vw;
+}
+.lavando-crespo-img-box img{
+    width:40vw;
+}
+.lavando-crespo-text-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2% ;
+    position: relative;
+    bottom: 10vh;
+    left: 5vw;
+}
+.lavando-crespo-text-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+.lavando-crespo-text-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.caminho-img-box{
+    width:40vw;
+    position: absolute;
+    top:350vh;
+    left:50vw;
+}
+.caminho-img-box img{
+    width:40vw;
+}
+footer{
+    height:100vh
+}
+.img-grid-container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-one{
+    width: 15vw;
+    margin-right: 0.5vw;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.column-one img{
+    width: 15vw;
+}
+.gloria-maria{
+    padding-top: 0.5vh;
+}
+.column-two{
+    width: 10vw;
+    margin-right: 0.5vw;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.column-two img{
+    width: 10vw;
+}
+.beyonce{
+    padding-bottom: 0.5vh;
+}
+.thais-araujo{
+    padding-top: 0.5vh;
+}
+.column-three{
+    width: 10vw;
+    margin-right: 0.5vw;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.column-three img{
+    width: 10vw;
+}
+.snoop-dog{
+    padding-top: 0.5vh;
+}
+.column-four{
+    width: 15vw;
+    margin-right: 0.5vw;
+}
+.column-four img{
+    width: 15vw;
+}
+.column-five{
+    width: 10vw;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.column-five img{
+    width: 10vw;
+}
+.reflective{
+    padding-top: 0.5vh;
+}
+.rodape{
+    height:20vh;
+    width: 100%;
+    background-color: #9767A9;
+    font-family: Montserrat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informacoes{
+    width:50vw;
+    font-size: 1vw;
+}
+.botoes-navegacao{
+    width:40vw;
+    font-size: 1.5vw;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.botoes-navegacao img{
+    width: 4vw;
+}
+
