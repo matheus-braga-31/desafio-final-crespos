@@ -530,6 +530,10 @@ footer-mobile{
         padding: 15px;
         z-index: 1;
     }
+    .checkbox-menu :hover{
+        cursor: pointer;
+        background-color: #b58cc4;
+    }
     .checkbox-menu img{
         width:10vw;
     }
